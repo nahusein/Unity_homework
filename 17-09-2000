@@ -1,0 +1,23 @@
+using System;
+					
+public class Program
+{
+	string name = "";
+	int age = 0;
+	string Hobby = "";
+	string Gender = "";
+
+	public void Main()
+	{
+		Console.WriteLine("Type in your name:");
+		name = Console.ReadLine();
+		Console.WriteLine("How old are you:");
+		age = Int32.Parse(Console.ReadLine());
+		Console.WriteLine("Very interesting, what about your hobby:");
+		Hobby = Console.ReadLine();
+		Console.WriteLine("Gender: man or woman");
+		Gender = Console.ReadLine();
+		Console.WriteLine('\n' + "To summarize all, your name is " + name + "," + " " + "you are " + age + " " + "years old, "+ "your hobby is " + Hobby + " " + "and " + "you are a " + Gender + ". " + '\n'+"Outstanding, you know what's even better that this stupid code gets to work finally.");
+
+	}
+}
