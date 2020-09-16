@@ -1,0 +1,16 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Type in your name");
+		Console.ReadLine();
+		Console.WriteLine("How old are you");
+		Console.ReadLine();
+		Console.WriteLine("What's your hobby");
+		Console.ReadLine();
+		Console.WriteLine("Gender");
+		Console.ReadLine();
+	}
+}
